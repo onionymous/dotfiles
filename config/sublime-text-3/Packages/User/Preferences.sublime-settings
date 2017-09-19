@@ -1,0 +1,23 @@
+{
+	"always_show_minimap_viewport": true,
+	"color_scheme": "Packages/User/SublimeLinter/Material Spaceblack Oceanic (SL).tmTheme",
+	"draw_minimap_border": true,
+	"draw_white_space": "all",
+	"font_face": "Dina",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_accent_sky": true,
+	"material_theme_compact_sidebar": true,
+	"theme": "Material Spaceblack.sublime-theme",
+	"translate_tabs_to_spaces": true
+}

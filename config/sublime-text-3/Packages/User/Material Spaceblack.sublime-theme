@@ -1,0 +1,65 @@
+[
+  //
+  // >> Controls
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "font.face" : "Dina",
+    "font.size": 12
+  },
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "panel_control"}],
+    "font.face" : "Dina",
+    "font.size": 12
+  },
+
+  //
+  // >> Sidebar
+  // ===========================================================================
+
+  {
+    "class": "sidebar_heading",
+    "font.face": "Dina",
+    "font.size": 12
+  },
+
+  {
+    "class": "sidebar_label",
+    "font.face": "Dina",
+    "font.size": 12
+  },
+
+  //
+  // >> Status Bar
+  // ===========================================================================
+
+  {
+    "class": "label_control",
+    "parents": [{"class": "status_bar"}],
+    "font.face": "Dina",
+    "font.size": 12
+  },
+
+  //
+  // >> Tabs
+  // ===========================================================================
+
+  {
+    "class": "tab_label",
+    "font.face" : "Dina",
+    "font.size": 12
+  },
+
+  //
+  // >> Tooltips
+  // ===========================================================================
+
+  {
+    "class": "tool_tip_label_control",
+    "font.face": "Dina",
+    "font.size": 12
+  }
+]

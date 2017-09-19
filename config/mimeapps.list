@@ -1,0 +1,7 @@
+[Added Associations]
+text/plain=sublime_text.desktop;
+audio/x-mod=sublime_text.desktop;
+application/x-shellscript=sublime_text.desktop;
+text/css=sublime_text.desktop;
+audio/x-wav=mpv.desktop;
+image/jpeg=feh.desktop;

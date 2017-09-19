@@ -1,0 +1,15 @@
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+rofi.color-enabled: true
+rofi.color-window: #1e2832, #1e2832, #5a9295
+rofi.color-normal: #1e2832, #dedede, #1e2832, #515e71, #dedede
+rofi.color-active: #1e2832, #5a9295, #1e2832, #515e71, #dedede
+rofi.color-urgent: #1e2832, #927a90, #1e2832, #927a90, #dedede
+rofi.color-window: argb:ff1e2832, #1e2832, #3bc7bc
+
+rofi.font: Dina 8
+rofi.borderwidth: 26
+rofi.separator-style: solid
+rofi.width: 30
+rofi.hide-scrollbar: true

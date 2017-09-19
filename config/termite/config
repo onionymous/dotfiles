@@ -1,0 +1,96 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+#font = Monoid 8    
+# font = Hack 11
+font = Dina 11
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = ibeam 
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+browser = vivaldi
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+[colors]
+cursor = #515e71
+cursor_foreground =  #28292c
+foreground = #dedede
+# original luna colors: foreground = #caf0ec
+#foreground_bold = #1c5879
+#background = #1e2832
+
+# 20% background transparency (requires a compositor)
+# background = rgba(30,40,50,0.99)
+background = #1e2832
+
+# if unset, will reverse foreground and background
+highlight = #25313c
+
+# colors from color0 to color254 can be set
+
+# black
+color0= #353e47
+color8= #59626b
+
+# red
+color1= #675665
+color9= #927a90
+
+# Green
+color2= #3a6469
+color10= #5a9295
+
+# Yellow
+color3= #a5b0aa
+color11= #e1f0e4
+
+# Blue
+color4 = #515e71
+color12 = #6e7f99
+
+# Magenta
+color5 =  #635d73
+color13 = #81779d
+
+# Cyan
+color6 = #2b908c
+color14 = #3bc7bc
+
+# White
+color7=  #bdb8c1
+color15= #ebcbde
+
+[hints]
+#font = Monospace 12
+#foreground:    #ac8e8e
+#background:    #101011
+#active_foreground = #e68080
+#active_background = #3f3f3f
+padding = 4
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s

@@ -1,0 +1,24 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"BracketHighlighter",
+		"Diffy",
+		"Dracula Color Scheme",
+		"Material Theme",
+		"Materialize",
+		"Monokai - Spacegray",
+		"Package Control",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Theme - Cyanide",
+		"Theme - DC",
+		"Theme - SoDaReloaded",
+		"Theme - Spaceblack",
+		"ThemeTweaker"
+	]
+}
