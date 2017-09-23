@@ -3,11 +3,11 @@
 	[
 	],
 	"last_version": 3143,
-	"last_window_id": 16,
+	"last_window_id": 17,
 	"log_indexing": false,
 	"settings":
 	{
-		"new_window_height": 987.0,
+		"new_window_height": 0.0,
 		"new_window_settings":
 		{
 			"auto_complete":
@@ -73,6 +73,18 @@
 			},
 			"file_history":
 			[
+				"/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+				"/home/orion/.themes/color_other/config.termite.config.base",
+				"/home/orion/.themes/color_other/config.rofi.config.base",
+				"/home/orion/.config/termite/config",
+				"/home/orion/.config/polybar/launch.sh",
+				"/home/orion/.config/polybar/config",
+				"/home/orion/.config/dunst/dunstrc",
+				"/home/orion/.config/i3/config",
+				"/home/orion/.themes/color_other/orion.dotfiles.Xresources.base",
+				"/home/orion/.themes/color_other/bin.scripts.export_colors.sh.base",
+				"/home/orion/.config/rofi/config",
+				"/home/orion/bin/scripts/export_colors.sh",
 				"/home/orion/bin/scripts/shutdown_menu.sh",
 				"/home/orion/Downloads/szor_dotfiles/.config/compton.conf",
 				"/home/orion/dotfiles/profile",
@@ -87,7 +99,6 @@
 				"/home/orion/.config/i3/config_bar",
 				"/home/orion/.config/i3/panel-bottom",
 				"/home/orion/Downloads/szor_dotfiles/.config/i3/config",
-				"/home/orion/.config/polybar/config",
 				"/home/orion/.config/i3/old_config",
 				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/settings.ini",
 				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/gtk.css",
@@ -100,7 +111,7 @@
 			],
 			"find":
 			{
-				"height": 24.0
+				"height": 25.0
 			},
 			"find_in_files":
 			{
@@ -114,6 +125,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"#COLOR15",
+					"#1e2832",
 					"monitor",
 					"caf0ec",
 					"Alt",
@@ -141,7 +154,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 24.0
+				"height": 25.0
 			},
 			"input":
 			{
@@ -155,7 +168,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 45.0
+				"height": 47.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -195,7 +208,7 @@
 			{
 			}
 		},
-		"new_window_width": 921.0
+		"new_window_width": 0.0
 	},
 	"windows":
 	[
@@ -221,43 +234,7 @@
 					"file": "/home/orion/dotfiles/Xresources",
 					"settings":
 					{
-						"buffer_size": 458,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/orion/.config/rofi/config",
-					"settings":
-					{
-						"buffer_size": 599,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/orion/.config/i3/config",
-					"settings":
-					{
-						"buffer_size": 8025,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/orion/.config/dunst/dunstrc",
-					"settings":
-					{
-						"buffer_size": 7590,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/orion/.config/polybar/config",
-					"settings":
-					{
-						"buffer_size": 7500,
+						"buffer_size": 432,
 						"encoding": "UTF-8",
 						"line_ending": "Unix"
 					}
@@ -272,12 +249,29 @@
 					}
 				},
 				{
-					"contents": ";\n;             _       _                                   __ _       \n; _ __   ___ | |_   _| |__   __ _ _ __    ___ ___  _ __  / _(_) __ _ \n;| '_ \\ / _ \\| | | | | '_ \\ / _` | '__|  / __/ _ \\| '_ \\| |_| |/ _` |\n;| |_) | (_) | | |_| | |_) | (_| | |    | (_| (_) | | | |  _| | (_| |\n;| .__/ \\___/|_|\\__, |_.__/ \\__,_|_|     \\___\\___/|_| |_|_| |_|\\__, |\n;|_|            |___/                                          |___/ \n\n\n;*********************************************************\n;\n;                          COLORS\n;\n;**********************************************************\n\n[colors]\n; Base colors from .Xresources\nbg        =   ${xrdb:background}\nbg-alt    =   #{xrdb:color0}\nfg        =   ${xrdb:foreground}\nfg-alt    =   ${xrdb:color8}\nred       =   ${xrdb:color1}\ngreen     =   ${xrdb:color2}\nyellow    =   ${xrdb:color3}\nblue      =   ${xrdb:color4}\nblue-alt  =   ${xrdb:color12}\nmagenta   =   ${xrdb:color5}\ncyan      =   ${xrdb:color6}\nwhite     =   ${xrdb:color15}\n\n;**********************************************************\n;\n;                       GLOBAL WM SETTINGS\n;\n;**********************************************************\n\n[global/wm]\nmargin-top = 0\nmargin-bottom = 0\n\n;*********************************************************\n;\n;                       BAR SETTINGS\n;\n;********************************************************\n\n[bar/top]\n;monitor = ${env:MONITOR:LVDS1}\nbottom = false\nwidth = 1349\nheight = 30\noffset-x = 10\noffset-y = 10\noverride-redirect = true\n\nbackground = ${colors.bg}\nforeground = ${colors.fg}\n\n;border-bottom-size = 1\n;border-top-size = 3\n;border-top-color = ${colors.green}\n;border-bottom-color = ${colors.bg-alt}\n\nspacing = 0\npadding-left = 0\npadding-right = 0\nmodule-margin-left = 1\nmodule-margin-right = 1\n\nfont-0 = Dina:size=6:antialias=false;1\nfont-1 = Siji:antialias=false;1\n\nmodules-left = menu i3 mpd\nmodules-center = date\nmodules-right = uptime mail temperature cpu memory wlan battery power-label\n\n;**********************************************************\n;\n;                   MODULES SETTINGS\n;\n;**********************************************************\n\n[module/i3]\ntype = internal/i3\n\n; ws-icon-[0-9]+ = label;icon\nws-icon-0 = 1;\nws-icon-1 = 2;\nws-icon-2 = 3;\nws-icon-3 = 4;\nws-icon-4 = 5;\nws-icon-5 = 6;\nws-icon-6 = 7;\nws-icon-7 = 8;\nws-icon-8 = 9;\nws-icon-9 = 10;\nws-icon-default = \n\nstrip-wsnumbers = true\n\nlabel-focused = %name%\nlabel-focused-foreground = ${colors.fg}\n;label-focused-background = ${colors.blue}\nlabel-focused-padding = 1\n\nlabel-unfocused = %name%\nlabel-unfocused-padding = 1\nlabel-unfocused-foreground = ${colors.fg-alt}\n;label-unfocused-background = ${colors.bg-alt}\n\nlabel-urgent = %name%\nlabel-urgent-foreground = ${colors.red}\nlabel-urgent-padding = 1\n\nlabel-visible = %name%\nlabel-visible-foreground = ${colors.fg-alt}\n;label-visible-background = ${colors.bg-alt}\nlabel-visible-padding = 1\n\n[module/cpu]\ntype = internal/cpu\ninterval = 2\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nlabel = \"%percentage%\"\n\n[module/memory]\ntype = internal/memory\ninterval = 2\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nlabel = \"%percentage_used%\"\n\n[module/wlan]\ntype = internal/network\ninterface = wlp1s0\ninterval = 3.0\n\nformat-connected = <ramp-signal> <label-connected>\n\nlabel-connected = %essid%\nlabel-connected-foreground = ${colors.fg}\n;label-disconnected = %ifname% disconnected\n;label-disconnected-foreground = ${colors.fg-alt}\n\nramp-signal-0 = \nramp-signal-1 = \nramp-signal-2 = \nramp-signal-3 = \nramp-signal-4 = \nramp-signal-foreground = ${colors.red}\n\n[module/eth]\ntype = internal/network\ninterface = enp2s0\ninterval = 3.0\n\nformat-connected-prefix = \" \"\nformat-connected-foreground-foreground = ${colors.fg-alt}\nlabel-connected = %local_ip%\n\n;format-disconnected-underline = ${self.format-connected-underline}\n;label-disconnected = %ifname% disconnected\n;label-disconnected-foreground = ${colors.fg}\n\n[module/date]\ntype = internal/date\ninterval = 5\n\ndate =\ndate-alt = %a %d %b %Y\n\ntime = %H:%M\ntime-alt = %H:%M:%S\n\n;format-prefix = \n;format-prefix-foreground = ${colors.fg-alt}\n\nlabel = \" %{F#84305e}%date%%{F-} %{F#ac9b9d}%time%%{F-} \"\nlabel-foreground = ${colors.fg}\n\n[module/battery]\ntype = internal/battery\nbattery = BAT1\nadapter = ADP1\nfull-at = 100\n\nformat-charging = \"<animation-charging> <label-charging> \"\nformat-discharging = \"<ramp-capacity> <label-discharging> \"\n\nformat-full-prefix = \" \"\nformat-full-prefix-foreground = ${colors.blue}\n\nramp-capacity-0 =  \nramp-capacity-1 =  \nramp-capacity-2 =  \nramp-capacity-foreground = ${colors.red}\n\nlabel-charging = Charging %percentage%%\n\nanimation-charging-0 = \nanimation-charging-1 = \nanimation-charging-2 = \nanimation-charging-foreground = ${colors.green}\nanimation-charging-framerate = 750\n\n[module/temperature]\ntype = internal/temperature\nthermal-zone = 0\nwarn-temperature = 60\n\nformat = \"<ramp> <label>\"\nformat-warn = \"<ramp> <label-warn>\"\n\nlabel = %temperature%\nlabel-warn = %temperature%\nlabel-warn-foreground = ${colors.red}\n\nramp-0 = \nramp-1 = \nramp-2 = \nramp-foreground = ${colors.red}\n\n[module/menu]\ntype = custom/text\n\ncontent = \"    \"\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.red}\nclick-left = bash ~/.config/polybar/popups/todo/todo\n\n[module/mail]\ntype = custom/script\ninterval = 10\nformat = \"<label>\"\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nexec = ~/.config/polybar/mail\n\n[module/uptime]\ntype = custom/script\ninterval = 50\nformat = \"<label>\"\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nexec = ~/.config/polybar/uptime\n\n[module/mpd]\ntype = custom/script\ninterval = 2\nformat = \"<label>\"\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nexec = ~/.config/polybar/mpd\n\n[module/power-label]\ntype = custom/text\ncontent = \"    \"\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.red}\nclick-left = bash ~/.config/polybar/popups/power/power\n\n; vim:ft=dosini\n",
+					"file": "/home/orion/dotfiles/config/polybar/config",
 					"settings":
 					{
-						"buffer_size": 5957,
-						"line_ending": "Unix",
-						"name": ";"
+						"buffer_size": 8539,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "#!/usr/bin/env python3\n# coding: utf-8\n\nfrom sys import argv\nimport dbus\n\n\ndef kb_light_set(delta):\n    bus = dbus.SystemBus()\n    kbd_backlight_proxy = bus.get_object('org.freedesktop.UPower', '/org/freedesktop/UPower/KbdBacklight')\n    kbd_backlight = dbus.Interface(kbd_backlight_proxy, 'org.freedesktop.UPower.KbdBacklight')\n\n    current = kbd_backlight.GetBrightness()\n    maximum = kbd_backlight.GetMaxBrightness()\n    new = max(0, current + delta)\n\n    if 0 <= new <= maximum:\n        current = new\n        kbd_backlight.SetBrightness(current)\n\n    # Return current backlight level percentage\n    return 100 * current / maximum\n\nif __name__ == '__main__':\n    if len(argv[1:]) == 1:\n        if argv[1] == \"--up\" or argv[1] == \"+\":\n            # ./kb-light.py (+|--up) to increment\n            print(kb_light_set(1))\n        elif argv[1] == \"--down\" or argv[1] == \"-\":\n            # ./kb-light.py (-|--down) to decrement\n            print(kb_light_set(-1))\n        else:\n            print(\"Unknown argument:\", argv[1])\n    else:\n        print(\"Script takes exactly one argument.\", len(argv[1:]), \"arguments provided.\")",
+					"settings":
+					{
+						"buffer_size": 1124,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/dotfiles/xinitrc",
+					"settings":
+					{
+						"buffer_size": 841,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
 					}
 				},
 				{
@@ -287,24 +281,6 @@
 						"buffer_size": 8598,
 						"line_ending": "Unix",
 						"name": ";================================================="
-					}
-				},
-				{
-					"file": "/home/orion/.config/polybar/launch.sh",
-					"settings":
-					{
-						"buffer_size": 259,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					}
-				},
-				{
-					"file": "/home/orion/.config/termite/config",
-					"settings":
-					{
-						"buffer_size": 1711,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
 					}
 				}
 			],
@@ -366,7 +342,19 @@
 			},
 			"file_history":
 			[
+				"/home/orion/.themes/color_other/config.i3.config.base",
+				"/home/orion/dotfiles/config/gsimplecal/config",
+				"/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+				"/home/orion/.themes/color_other/config.termite.config.base",
+				"/home/orion/.themes/color_other/config.rofi.config.base",
+				"/home/orion/.config/termite/config",
+				"/home/orion/.config/polybar/launch.sh",
+				"/home/orion/.config/polybar/config",
+				"/home/orion/.config/dunst/dunstrc",
+				"/home/orion/.config/i3/config",
+				"/home/orion/.themes/color_other/orion.dotfiles.Xresources.base",
 				"/home/orion/.themes/color_other/bin.scripts.export_colors.sh.base",
+				"/home/orion/.config/rofi/config",
 				"/home/orion/bin/scripts/export_colors.sh",
 				"/home/orion/bin/scripts/shutdown_menu.sh",
 				"/home/orion/Downloads/szor_dotfiles/.config/compton.conf",
@@ -382,7 +370,6 @@
 				"/home/orion/.config/i3/config_bar",
 				"/home/orion/.config/i3/panel-bottom",
 				"/home/orion/Downloads/szor_dotfiles/.config/i3/config",
-				"/home/orion/.config/polybar/config",
 				"/home/orion/.config/i3/old_config",
 				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/settings.ini",
 				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/gtk.css",
@@ -409,6 +396,17 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"xbacklight",
+					"time",
+					"tray",
+					"date",
+					"network",
+					"battery",
+					"network",
+					"bar",
+					"customdate",
+					"#COLOR15",
+					"#1e2832",
 					"monitor",
 					"caf0ec",
 					"Alt",
@@ -437,7 +435,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 4,
 					"sheets":
 					[
 						{
@@ -539,7 +537,7 @@
 								"translation.y": 1.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 7,
+							"stack_index": 6,
 							"type": "text"
 						},
 						{
@@ -548,15 +546,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 458,
+								"buffer_size": 432,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										150,
-										150
+										165,
+										165
 									]
 								],
 								"settings":
@@ -579,61 +577,61 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
 										"bh_single_quote_close",
 										"bh_single_quote_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
 										"bh_double_quote",
 										"bh_double_quote_center",
 										"bh_double_quote_open",
 										"bh_double_quote_close",
 										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
 									],
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
@@ -641,423 +639,11 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 4,
 							"type": "text"
 						},
 						{
 							"buffer": 2,
-							"file": "/home/orion/.config/rofi/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 599,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										491,
-										491
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/home/orion/.config/i3/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 8025,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5982,
-										5982
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 3870.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 8,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/home/orion/.config/dunst/dunstrc",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7590,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5210,
-										5210
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 2537.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 6,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/home/orion/.config/polybar/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 7500,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										6524,
-										6524
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
 							"file": "/home/orion/.config/polybar/scripts/uptime",
 							"semi_transient": false,
 							"settings":
@@ -1103,51 +689,51 @@
 										"bh_single_quote_open",
 										"bh_single_quote_close",
 										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
 										"bh_default",
 										"bh_default_center",
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_tag",
 										"bh_tag_center",
 										"bh_tag_open",
 										"bh_tag_close",
 										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
 									],
 									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
 								},
@@ -1159,24 +745,24 @@
 							"type": "text"
 						},
 						{
-							"buffer": 7,
+							"buffer": 3,
+							"file": "/home/orion/dotfiles/config/polybar/config",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 5957,
+								"buffer_size": 8539,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										5957,
-										1958
+										1989,
+										1989
 									]
 								],
 								"settings":
 								{
-									"auto_name": ";",
 									"bracket_highlighter.busy": false,
 									"bracket_highlighter.locations":
 									{
@@ -1195,6 +781,46 @@
 									},
 									"bracket_highlighter.regions":
 									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
 										"bh_curly",
 										"bh_curly_center",
 										"bh_curly_open",
@@ -1205,63 +831,228 @@
 										"bh_angle_open",
 										"bh_angle_close",
 										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
 										"bh_regex",
 										"bh_regex_center",
 										"bh_regex_open",
 										"bh_regex_close",
-										"bh_regex_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 3456.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1124,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										74,
+										74
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
 										"bh_c_define",
 										"bh_c_define_center",
 										"bh_c_define_open",
 										"bh_c_define_close",
 										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
 										"bh_double_quote",
 										"bh_double_quote_center",
 										"bh_double_quote_open",
 										"bh_double_quote_close",
 										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
 										"bh_tag",
 										"bh_tag_center",
 										"bh_tag_open",
 										"bh_tag_close",
-										"bh_tag_content"
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
 									],
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
-								"translation.y": 852.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 9,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
-							"buffer": 8,
+							"buffer": 5,
+							"file": "/home/orion/dotfiles/xinitrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 841,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										244,
+										244
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
 							"semi_transient": false,
 							"settings":
 							{
@@ -1297,113 +1088,16 @@
 									},
 									"bracket_highlighter.regions":
 									[
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
 										"bh_unmatched",
 										"bh_unmatched_center",
 										"bh_unmatched_open",
 										"bh_unmatched_close",
 										"bh_unmatched_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 10,
-							"type": "text"
-						},
-						{
-							"buffer": 9,
-							"file": "/home/orion/.config/polybar/launch.sh",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 259,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										59,
-										18
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
 										"bh_single_quote",
 										"bh_single_quote_center",
 										"bh_single_quote_open",
@@ -1424,146 +1118,39 @@
 										"bh_default_open",
 										"bh_default_close",
 										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
 										"bh_tag",
 										"bh_tag_center",
 										"bh_tag_open",
 										"bh_tag_close",
 										"bh_tag_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
 										"bh_double_quote",
 										"bh_double_quote_center",
 										"bh_double_quote_open",
 										"bh_double_quote_close",
-										"bh_double_quote_content"
+										"bh_double_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content"
 									],
-									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 5,
-							"type": "text"
-						},
-						{
-							"buffer": 10,
-							"file": "/home/orion/.config/termite/config",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 1711,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										798,
-										798
-									]
-								],
-								"settings":
-								{
-									"bracket_highlighter.busy": false,
-									"bracket_highlighter.locations":
-									{
-										"close":
-										{
-										},
-										"icon":
-										{
-										},
-										"open":
-										{
-										},
-										"unmatched":
-										{
-										}
-									},
-									"bracket_highlighter.regions":
-									[
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content"
-									],
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 162.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
 							"type": "text"
 						}
 					]
@@ -1605,7 +1192,7 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,26,67,947,1054,1920,1080",
+			"position": "0,0,0,0,0,26,67,1894,1054,1920,1080",
 			"project": "",
 			"replace":
 			{

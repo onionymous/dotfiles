@@ -9,11 +9,9 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-focus_follows_mouse no
-
 #
 # APPEARANCE SETTINGS#
-# ---------------------------------------------------------------------
+
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -43,20 +41,19 @@ set $mod Mod4
 gaps inner 26
 gaps outer 0
 
-for_window [class="^Gsimplecal$"] border none, floating enable
 for_window [class="^.*"] border normal 0
 for_window [class=".*"] title_format " >_ %title "
 
 #                         border  bg      text    indicat child_border
-client.focused            #1a1832 #0E0E1A #edd7f5 #524971 #0E0E1A
-client.focused_inactive   #0E0E1A #0E0E1A #352736 #524971 #0E0E1A
-client.unfocused          #0E0E1A #0E0E1A #352736 #524971 #0E0E1A
-client.urgent             #5e4661 #5e4661 #FFFFFF #5e4661 #0E0E1A
-client.background         #0E0E1A
+client.focused            #232323 #232f3b #d0f3eb #4F4F4F #212a33
+client.focused_inactive   #1A1A1A #232f3b #536d73 #121212 #212a33
+client.unfocused          #030706 #232f3b #636d73 #4F4F4F #212a33
+client.urgent             #1A1A1A #232f3b #a5a5a5 #1A1A1A #212a33
+client.background #1b2026
 
 #
 # Bar (broken, see exec section below)
-# ---------------------------------------------------------------------
+#
 
 # bar {
 #     i3bar_command $HOME/.config/polybar/launch.sh
@@ -64,7 +61,7 @@ client.background         #0E0E1A
 
 #
 # KEYBINDINGS
-# ---------------------------------------------------------------------
+#
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -93,7 +90,7 @@ bindsym --release Print exec teiler
 
 # shutdown menu and lock
 bindsym $mod+Escape exec $HOME/bin/scripts/shutdown_menu.sh
-bindsym Ctrl+Mod1+Delete exec i3lock-fancy
+bindsym Ctrl+Mod1+Delete exec i3lock-fancy -p -f Hack-Regular -t '>_ orion@haru: ~'
 
 # change focus
 bindsym $mod+h focus left
@@ -160,8 +157,8 @@ bindsym $mod+0 workspace 10
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
 
-bindsym Ctrl+Mod1+Left workspace prev
-bindsym Ctrl+Mod1+Right workspace next
+bindsym Ctrl+Mod1+Left workspace next
+bindsym Ctrl+Mod1+Right workspace prev
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $ws1
@@ -211,10 +208,8 @@ bindsym $mod+Shift+r mode "resize"
 
 #
 # FLOATING WINDOWS
-# ---------------------------------------------------------------------
-
+#
 # xprop command for find class name
-for_window [class="^Gsimplecal$"] border pixel 0, floating enable
 for_window [window_role="pop-up"] floating enable
 for_window [class="GUI*"] floating enable
 for_window [class="Firefox" window_role="SessionPrompt"] floating enable
@@ -222,7 +217,6 @@ for_window [class="Firefox" window_role="Organizer"] floating enable
 for_window [window_role="StylishInstall*"] floating enable
 for_window [class="Wpg"] floating enable
 for_window [class="Lxappearance"] floating enable
-for_window [class="Eog"] floating enable
 for_window [class="Pavucontrol"] floating enable
 for_window [class="Sxiv|feh"] floating enable
 for_window [class="mpv"] floating enable
@@ -231,34 +225,30 @@ for_window [class="Gimp"] floating enable
 for_window [class="Zathura"] floating enable
 
 #
-# VOLUME + BRIGHTNESS KEYS
-# ---------------------------------------------------------------------
+# VOLUME KEYS
+#
 
-# Pulse Audio controls
-bindsym XF86AudioRaiseVolume exec --no-startup-id volume.sh -i 5 -n #increase sound volume
-bindsym XF86AudioLowerVolume exec --no-startup-id volume.sh -d 5 -n #decrease sound volume
-bindsym XF86AudioMute exec --no-startup-id volume.sh -m -n # mute sound
+# bindsym $mod+F1 exec ~/.xutils/audio.sh toggle
+# bindsym $mod+F2 exec ~/.xutils/audio.sh dec 2
+# bindsym $mod+F3 exec ~/.xutils/audio.sh inc
+# bindsym XF86AudioMute exec ~/.xutils/audio.sh toggle
+# bindsym XF86AudioLowerVolume  exec ~/.xutils/audio.sh dec
+# bindsym XF86AudioRaiseVolume exec ~/.xutils/audio.sh inc
 
-# Sreen brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 20 # increase screen brightness
-bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightness
-
-# Touchpad controls
-bindsym XF86TouchpadToggle exec /some/path/toggletouchpad.sh # toggle touchpad
-
-# Media player controls
-bindsym XF86AudioPlay exec playerctl play
-bindsym XF86AudioPause exec playerctl pause
-bindsym XF86AudioNext exec playerctl next
-bindsym XF86AudioPrev exec playerctl previous
+# bindsym XF86AudioPrev exec ~/.xutils/audio.sh prev
+# bindsym XF86AudioNext exec ~/.xutils/audio.sh next
+# bindsym $mod+shift+F4 exec ~/.xutils/audio.sh next
+# bindsym XF86AudioPlay exec ~/.xutils/audio.sh pause
+# bindsym $mod+F4 exec ~/.xutils/audio.sh pause
+# bindsym $mod+n exec ~/.xutils/audio.sh next
 
 #
 # EXEC
-# ---------------------------------------------------------------------
+#
 
-exec --no-startup-id feh --bg-fill /home/orion/Pictures/Wallpapers/leo-lee-nudle-server-farm-final.jpg
+# compton
 exec --no-startup-id compton -b -c -f
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id xfce4-clipman
 exec --no-startup-id nm-applet
 exec --no-startup-id volumeicon
-exec --no-startup-id xfce4-clipman

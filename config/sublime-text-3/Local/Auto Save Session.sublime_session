@@ -1,0 +1,1841 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3143,
+	"last_window_id": 18,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 987.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 36.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"materia",
+						"Material Theme: Configuration"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"materi",
+						"Material Theme: Advanced configuration"
+					]
+				],
+				"width": 455.0
+			},
+			"console":
+			{
+				"height": 157.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/orion/dotfiles/config/sublime-text-3/Packages/ThemeTweaker/theme_tweaker.sublime-settings",
+				"/home/orion/dotfiles/config/polybar/scripts/pkg",
+				"/home/orion/dotfiles/config/i3/config",
+				"/home/orion/dotfiles/config/polybar/config",
+				"/home/orion/dotfiles/config/dunst/dunstrc",
+				"/home/orion/.config/polybar/scripts/uptime",
+				"/home/orion/bin/scripts/i3lock-blur/lock.sh",
+				"/home/orion/bin/scripts/shutdown_menu.sh",
+				"/home/orion/bin/scripts/i3lock-blur/README.md",
+				"/home/orion/bin/scripts/i3lock-blur/LICENSE",
+				"/home/orion/Downloads/old_home/orion/bin/scripts/i3lock-blur/lock.sh",
+				"/home/orion/Downloads/old_home/orion/bin/scripts/i3lock-blur/README.md",
+				"/home/orion/Downloads/old_home/orion/.config/i3/config",
+				"/home/orion/Downloads/old_home/orion/.config/i3/.dunst_volume",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.config/dunst/dunstrc",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.zshrc",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.xinitrc",
+				"/home/orion/dotfiles/config/termite/config",
+				"/home/orion/dotfiles/config/polybar/scripts/pkg.sh",
+				"/home/orion/.themes/color_other/config.i3.config.base",
+				"/home/orion/dotfiles/config/gsimplecal/config",
+				"/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+				"/home/orion/.themes/color_other/config.termite.config.base",
+				"/home/orion/.themes/color_other/config.rofi.config.base",
+				"/home/orion/.config/termite/config",
+				"/home/orion/.config/polybar/launch.sh",
+				"/home/orion/.config/polybar/config",
+				"/home/orion/.config/dunst/dunstrc",
+				"/home/orion/.config/i3/config",
+				"/home/orion/.themes/color_other/orion.dotfiles.Xresources.base",
+				"/home/orion/.themes/color_other/bin.scripts.export_colors.sh.base",
+				"/home/orion/.config/rofi/config",
+				"/home/orion/bin/scripts/export_colors.sh",
+				"/home/orion/Downloads/szor_dotfiles/.config/compton.conf",
+				"/home/orion/dotfiles/profile",
+				"/home/orion/bin/scripts/i3-wininfo.sh",
+				"/home/orion/dotfiles/zshrc",
+				"/home/orion/Downloads/szor_dotfiles/.colors/luna",
+				"/home/orion/.config/sublime-text-3/Packages/User/Material Spaceblack.sublime-theme",
+				"/home/orion/.config/sublime-text-3/Packages/User/luna.tmTheme",
+				"/home/orion/.config/sublime-text-3/Packages/ThemeTweaker/theme_tweaker.sublime-settings",
+				"/home/orion/dotfiles/zprofile",
+				"/home/orion/.config/i3/panel-top",
+				"/home/orion/.config/i3/config_bar",
+				"/home/orion/.config/i3/panel-bottom",
+				"/home/orion/Downloads/szor_dotfiles/.config/i3/config",
+				"/home/orion/.config/i3/old_config",
+				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/settings.ini",
+				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/gtk.css",
+				"/home/orion/Downloads/szor_dotfiles/.config/i3/config_bar",
+				"/home/orion/Downloads/szor_dotfiles/.config/termite/config",
+				"/home/orion/.zshrc",
+				"/home/orion/dotfiles/bashrc",
+				"/home/orion/dotfiles/xinitrc",
+				"/home/orion/nohup.out"
+			],
+			"find":
+			{
+				"height": 55.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"icon",
+					"left",
+					"icon",
+					"format",
+					"lock",
+					"battery",
+					"icon",
+					"focus",
+					"eog",
+					"media",
+					"bindsym",
+					"x86",
+					"tray",
+					"font",
+					"cpu",
+					"wlan",
+					"cpu",
+					"eth",
+					"uptime",
+					"eth",
+					"uptime",
+					"eth",
+					"date",
+					"i3",
+					"temperature",
+					"pkg",
+					"uptime",
+					"cpu",
+					"temperature",
+					"backlight",
+					"[module",
+					"xbacklight",
+					"time",
+					"tray",
+					"date",
+					"network",
+					"battery",
+					"network",
+					"bar",
+					"customdate",
+					"#COLOR15",
+					"#1e2832",
+					"monitor",
+					"caf0ec",
+					"Alt",
+					"\"Dina\"",
+					"Sans-Serif",
+					"font",
+					"Shift+h",
+					"bar",
+					"$mod+r",
+					"$mod+R",
+					"$mod+r"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 47.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1868.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "- things still to do!\n- setup sublime text\n- set up vim\n- theme firefox\n- theme ranger/weechat/etc\n- notifications\n\n- set up unified colors with wpd\n\n- install latex/pandoc/haskell/tensorflow\n- get project to work on here",
+					"settings":
+					{
+						"buffer_size": 221,
+						"line_ending": "Unix",
+						"name": "- things still to do!"
+					}
+				},
+				{
+					"file": "/home/orion/dotfiles/Xresources",
+					"settings":
+					{
+						"buffer_size": 432,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": ";*********************************************************\n;\n;                          COLORS\n;\n;**********************************************************\n\n[colors]\n; Base colors from .Xresources\nbg        =   ${xrdb:background}\nbg-alt    =   #{xrdb:color0}\nfg        =   ${xrdb:foreground}\nfg-alt    =   ${xrdb:color8}\nred       =   ${xrdb:color1}\ngreen     =   ${xrdb:color2}\nyellow    =   ${xrdb:color3}\nblue      =   ${xrdb:color4}\nblue-alt  =   ${xrdb:color12}\nmagenta   =   ${xrdb:color5}\ncyan      =   ${xrdb:color6}\nwhite     =   ${xrdb:color15}\n\n\n[bar/top]\n; Use the following command to list available outputs:\n; If unspecified, the application will pick the first one it finds.\n; $ xrandr -q | grep \" connected\" | cut -d ' ' -f1\n; monitor =\n\n; Use the specified monitor as a fallback if the main one is not found.\n; monitor-fallback =\n\n; Require the monitor to be in connected state\n; XRandR sometimes report my monitor as being disconnected (when in use)\nmonitor-strict = false\n\n; Tell the Window Manager not to configure the window.\n; Use this to detach the bar if your WM is locking its size/position.\noverride-redirect = false\n\n; Put the bar at the bottom of the screen\nbottom = false\n\n; Prefer fixed center position for the `modules-center` block\n; When false, the center position will be based on the size of the other blocks.\nfixed-center = true\n\n; Dimension defined as pixel value (e.g. 35) or percentage (e.g. 50%)\nwidth = 100%\nheight = 27\n\n; Offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)\noffset-x = 0\noffset-y = 0\n\nbackground = ${colors.bg}\nforeground = ${colors.fg}\n\nspacing = 0\npadding-left = 0\npadding-right = 0\nmodule-margin-left = 0\nmodule-margin-right = 0\n\nfont-0 = Dina:size=11:antialias=false;1\n; font-0 = artwiz nu:size=12:antialias=false;1\nfont-1 = \"Wuncon Siji:antialias=false;1\"\nfont-2 = FontAwesome:size=10;0\nfont-3 = unifont:fontformat=truetype:size=8:antialias=false;0\n\nmodules-left = i3\nmodules-center = eth wlan uptime pkg cpu temperature memory\nmodules-right = date battery backlight\n\n\n; Position of the system tray window\n; If empty or undefined, tray support will be disabled\n; NOTE: A center aligned tray will cover center aligned modules\n;\n; Available positions:\n;   left\n;   center\n;   right\ntray-position = right\n\n; If true, the bar will not shift its\n; contents when the tray changes\ntray-detached = false\n\n; Tray icon max size\ntray-maxsize = 16\n\n; Enable pseudo transparency\n; Will automatically be enabled if a fully transparent\n; background color is defined using `tray-background`\ntray-transparent = false\n\n; Background color for the tray container\n; By default the tray container will use the bar\n; background color.\n; Note: 32 bit alpha blending is not supported.\ntray-background = ${colors.red}\n\n; Tray offset defined as pixel value (e.g. 35) or percentage (e.g. 50%)\ntray-offset-x = 0\ntray-offset-y = 0\n\n; Pad the sides of each tray icon\ntray-padding = 3\n\n; Scale factor for tray clients\ntray-scale = 1.0\n\n; Restack the bar window and put it above the\n; selected window manager's root\n;\n; Fixes the issue where the bar is being drawn\n; on top of fullscreen window's\n;\n; Currently supported WM's:\n;   bspwm\n;   i3 (requires: `override-redirect = true`)\nwm-restack = i3\n\n; Enable support for inter-process messaging\n; See the Messaging wiki page for more details.\nenable-ipc = false\n\n; Fallback click handlers that will be called if\n; there's no matching module handler found.\nclick-left = \nclick-middle = \nclick-right =\nscroll-up =\nscroll-down =\ndouble-click-left =\ndouble-click-middle =\ndouble-click-right =\n\n;**********************************************************\n;\n;                   MODULES SETTINGS\n;\n;**********************************************************\n\n\n\n[module/i3]\ntype = internal/i3\n\n; ws-icon-[0-9]+ = label;icon\nws-icon-0 = 1;\nws-icon-1 = 2;\nws-icon-2 = 3;\nws-icon-3 = 4;\nws-icon-4 = 5;\nws-icon-5 = 6;\nws-icon-6 = 7;\nws-icon-7 = 8;\nws-icon-8 = 9;\nws-icon-9 = 10;\nws-icon-default = \n\nstrip-wsnumbers = true\n\nlabel-focused = %name%\nlabel-focused-foreground = #FFFFFF\nlabel-focused-background = ${colors.red}\nlabel-focused-padding = 2\n\nlabel-unfocused = %name%\nlabel-unfocused-padding = 2\nlabel-unfocused-foreground = ${colors.fg}\nlabel-unfocused-background = ${colors.fg-alt}\n\nlabel-urgent = %name%\nlabel-urgent-foreground = ${colors.fg}\nlabel-urgent-background = ${colors.blue}\nlabel-urgent-padding = 2\n\nlabel-visible = %name%\nlabel-visible-foreground = ${colors.fg}\nlabel-visible-background = ${colors.fg-alt}\nlabel-visible-padding = 2\n\n\n\n[module/cpu]\ntype = internal/cpu\ninterval = 2\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nformat-padding 3\n; Available tags:\n;   <label> (default)\n;   <bar-load>\n;   <ramp-load>\n;   <ramp-coreload>\nformat = \"<label> \"\n\n; Available tokens:\n;   %percentage% (default) - total cpu load\n;   %percentage-cores% - load percentage for each core\n;   %percentage-core[1-9]% - load percentage for specific core\nlabel = \" %percentage%% \"\n\nramp-coreload-0 = ▁\nramp-coreload-1 = ▂\nramp-coreload-2 = ▃\nramp-coreload-3 = ▄\nramp-coreload-4 = ▅\nramp-coreload-5 = ▆\nramp-coreload-6 = ▇\nramp-coreload-7 = █\n\n\n\n[module/memory]\ntype = internal/memory\ninterval = 2\nformat-padding 3\nformat-prefix = \"  \"\nformat-prefix-foreground = ${colors.red}\nlabel = \"%percentage_used%% \"\n\n\n\n\n[module/wlan]\ntype = internal/network\ninterface = wlp10s0\ninterval = 3.0\n\nformat-connected = \" <ramp-signal> <label-connected> \"\nformat-disconnected = \"<label-disconnected> \"\nformat-disconnected-prefix = \" \"\nformat-disconnected-prefix-foreground = \"${colors.red}\"\nformat-padding = 3\n\nlabel-connected = %essid%\nlabel-connected-foreground = ${colors.fg}\nlabel-disconnected = \"down \"\n;label-disconnected = %ifname% disconnected\nlabel-disconnected-foreground = ${colors.red}\n\n;     \n;     \nramp-signal-0 = \nramp-signal-1 = \nramp-signal-2 = \nramp-signal-3 = \nramp-signal-4 = \nramp-signal-foreground = ${colors.red}\n\n\n\n[module/eth]\ntype = internal/network\ninterface = enp8s0\ninterval = 3.0\n\nformat-connected-prefix = \"  \"\n; format-padding = 3\nformat-connected-prefix-foreground = ${colors.red}\nlabel-connected = \"%local_ip%  \" \n\nformat-disconnected-prefix = \"  \"\nformat-disconnected-prefix-foreground = ${colors.red}\nlabel-disconnected-foreground = ${colors.red}\nlabel-disconnected = \"down \"\n;label-disconnected = %ifname% disconnected\n;format-disconnected-underline = ${self.format-connected-underline}\n\n\n\n[module/date]\ncontent-foreground = ${colors.fg}\ncontent-background = ${colors.fg-alt}\n\ntype = internal/date\ninterval = 1\n\ndate = \"%a %d/%m\"\ndate-alt = \"%a %d %b %Y \"\n\ntime = \"%I:%M %p\"\ntime-alt = %r\n\n;format-prefix = \n;format-prefix-foreground = ${colors.fg-alt}\n\nlabel = \"%{A3:gsimplecal &:}%date% %time%%{A}\"\nlabel-background = ${colors.fg-alt}\nlabel-padding = 3\n\n\n[module/customdate]\ntype = custom/script\ninterval = 1\n\nexec = date +'%d %B %Y %r'\nlabel-foreground = ${colors.fg}\nlabel-background = ${colors.fg-alt}\nlabel-padding = 3\n\nclick-left = gsimplecal\n\n\n\n[module/battery]\ntype = internal/battery\n\n; This is useful in case the battery never reports 100% charge\n; full-at = 99\n\n; Use the following command to list batteries and adapters:\n; $ ls -1 /sys/class/power_supply/\nbattery = BAT1\nadapter = ACAD\n\n; If an inotify event haven't been reported in this many\n; seconds, manually poll for new values.\n;\n; Needed as a fallback for systems that don't report events\n; on sysfs/procfs.\n;\n; Disable polling by setting the interval to 0.\n;\n; Default: 5\npoll-interval = 5\n\nformat-charging = \"  <animation-charging> <label-charging>\"\nformat-discharging = \"  <ramp-capacity> <label-discharging>\"\n\nformat-full-prefix = \" \"\nformat-full-prefix-foreground = ${colors.blue}\n\nramp-capacity-0 =  \nramp-capacity-1 =  \nramp-capacity-2 =  \n;          \n\n; ramp-capacity-foreground = ${colors.red}\n\nlabel-charging = %percentage%%\nlabel-discharging = %percentage%%\n\nanimation-charging-0 = \nanimation-charging-1 = \nanimation-charging-2 = \n; animation-charging-foreground = ${colors.green}\nanimation-charging-framerate = 750\n\nformat-charging-foreground = #FFFFFF\nformat-charging-background = ${colors.red}\nformat-charging-padding = 0\nformat-discharging-foreground = #FFFFFF\nformat-discharging-background = ${colors.red}\nformat-discharging-padding = 0\n\n\n[module/backlight]\ntype = internal/xbacklight\n\n; Create scroll handlers used to set the backlight value\n; Default: true\nenable-scroll = false\n\n; Available tags:\n;   <label> (default)\n;   <ramp>\n;   <bar>\nformat = <ramp> <label>\n\n; Available tokens:\n;   %percentage% (default)\nlabel = %percentage%%\n\n; Only applies if <ramp> is used\nramp-0 = 🌕\nramp-1 = 🌔\nramp-2 = 🌓\nramp-3 = 🌒\nramp-4 = 🌑\n\n; Only applies if <bar> is used\nbar-width = 10\nbar-indicator = |\nbar-fill = ─\nbar-empty = ─\n\n\n\n[module/temperature]\ntype = internal/temperature\nthermal-zone = 0\nwarn-temperature = 60\n\nformat = \" <ramp> <label> \"\nformat-warn = \" <ramp> <label-warn> \"\n\nlabel = %temperature%\nlabel-warn = %temperature%\nlabel-warn-foreground = ${colors.red}\n\nramp-0 = \nramp-1 = \nramp-2 = \nramp-foreground = ${colors.red}\n\n\n\n[module/menu]\ntype = custom/text\n\ncontent = \"    \"\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.red}\nclick-left = bash ~/.config/polybar/popups/todo/todo\n\n\n\n[module/mail]\ntype = custom/script\ninterval = 10\nformat = \"<label>\"\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nexec = ~/.config/polybar/mail\n\n\n\n[module/uptime]\ntype = custom/script\ninterval = 50\nformat = \"%{A1:notify-send uptime \"`uptime`\":}<label> %{A}\"\nformat-prefix = \"  \"\nformat-prefix-foreground = ${colors.red}\nexec = $HOME/.config/polybar/scripts/uptime\n\n\n\n[module/mpd]\ntype = custom/script\ninterval = 2\nformat = \"<label>\"\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.red}\nexec = ~/.config/polybar/mpd\n\n\n\n[module/power-label]\ntype = custom/text\ncontent = \"    \"\ncontent-foreground = ${colors.bg}\ncontent-background = ${colors.red}\nclick-left = bash ~/.config/polybar/popups/power/power\n\n\n[module/pkg]\ntype = custom/script\ninterval = 1200\nformat = \"%{A1:}<label> %{A}\"\nlabel = \"%output%\"\nformat-prefix = \"  \"\nformat-prefix-foreground = ${colors.red}\nexec = $HOME/.config/polybar/scripts/pkg\nexec-if = \"ping -q -w 2 -c 1 176.34.135.167 > /dev/null\"\n\n; vim:ft=dosini\n",
+					"file": "/home/orion/dotfiles/config/polybar/config",
+					"file_size": 10418,
+					"file_write_time": 131506833884421489,
+					"settings":
+					{
+						"buffer_size": 10273,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/.themes/color_other/config.termite.config.base",
+					"settings":
+					{
+						"buffer_size": 1631,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/.themes/color_other/config.i3.config.base",
+					"settings":
+					{
+						"buffer_size": 8955,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/bin/scripts/sysinfo.sh",
+					"settings":
+					{
+						"buffer_size": 3018,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+					"settings":
+					{
+						"buffer_size": 7525,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/.oh-my-zsh/themes/orion.zsh-theme",
+					"settings":
+					{
+						"buffer_size": 359,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "# if [[ $TERM == xterm-termite ]] ; then\n#     . /etc/profile.d/vte.sh\n#     __vte_osc7\n# fi\n\n# If you come from bash you might have to change your $PATH.\nexport PATH=$HOME/bin:/usr/local/bin:$PATH\n\n# source ~/.profile\n# [[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'\n\n# Path to your oh-my-zsh installation.\n  export ZSH=/home/orion/.oh-my-zsh\n\n# Set name of the theme to load. Optionally, if you set this to \"random\"\n# it'll load a random theme each time that oh-my-zsh is loaded.\n# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes\nZSH_THEME=\"orion\"\n\n# Uncomment the following line to use case-sensitive completion.\n# CASE_SENSITIVE=\"true\"\n\n# Uncomment the following line to use hyphen-insensitive completion. Case\n# sensitive completion must be off. _ and - will be interchangeable.\n# HYPHEN_INSENSITIVE=\"true\"\n\n# Uncomment the following line to disable bi-weekly auto-update checks.\n# DISABLE_AUTO_UPDATE=\"true\"\n\n# Uncomment the following line to change how often to auto-update (in days).\n# export UPDATE_ZSH_DAYS=13\n\n# Uncomment the following line to disable colors in ls.\n# DISABLE_LS_COLORS=\"true\"\n\n# Uncomment the following line to disable auto-setting terminal title.\n# DISABLE_AUTO_TITLE=\"true\"\n\n# Uncomment the following line to enable command auto-correction.\n# ENABLE_CORRECTION=\"true\"\n\n# Uncomment the following line to display red dots whilst waiting for completion.\n# COMPLETION_WAITING_DOTS=\"true\"\n\n# Uncomment the following line if you want to disable marking untracked files\n# under VCS as dirty. This makes repository status check for large repositories\n# much, much faster.\n# DISABLE_UNTRACKED_FILES_DIRTY=\"true\"\n\n# Uncomment the following line if you want to change the command execution time\n# stamp shown in the history command output.\n# The optional three formats: \"mm/dd/yyyy\"|\"dd.mm.yyyy\"|\"yyyy-mm-dd\"\n# HIST_STAMPS=\"mm/dd/yyyy\"\n\n# Would you like to use another custom folder than $ZSH/custom?\n# ZSH_CUSTOM=/path/to/new-custom-folder\n\n# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)\n# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/\n# Example format: plugins=(rails git textmate ruby lighthouse)\n# Add wisely, as too many plugins slow down shell startup.\nplugins=(git)\n\nsource $ZSH/oh-my-zsh.sh\n\n# User configuration\n\n# export MANPATH=\"/usr/local/man:$MANPATH\"\n\n# You may need to manually set your language environment\n# export LANG=en_US.UTF-8\n\n# Preferred editor for local and remote sessions\n# if [[ -n $SSH_CONNECTION ]]; then\n#   export EDITOR='vim'\n# else\n#   export EDITOR='mvim'\n# fi\n\n# Compilation flags\n# export ARCHFLAGS=\"-arch x86_64\"\n\n# ssh\n# export SSH_KEY_PATH=\"~/.ssh/rsa_id\"\n\n# Set personal aliases, overriding those provided by oh-my-zsh libs,\n# plugins, and themes. Aliases can be placed here, though oh-my-zsh\n# users are encouraged to define aliases within the ZSH_CUSTOM folder.\n# For a full list of active aliases, run `alias`.\n#\n# Example aliases\n# alias zshconfig=\"mate ~/.zshrc\"\n# alias ohmyzsh=\"mate ~/.oh-my-zsh\"\n\n# newline after each command\nfunction precmd {\n    if [[ \"$NEW_LINE\" = true ]] then\n        if [[ \"${ADD_NEW_LINE}\" = true ]] then\n            PROMPT=$'\\n'\"${PROMPT}\"\n            ADD_NEW_LINE=false\n        fi\n    else\n        PROMPT=\"${PROMPT}\"\n        NEW_LINE=true\n        ADD_NEW_LINE=true\n    fi\n}\n\nbindkey \"${terminfo[khome]}\" beginning-of-line\nbindkey \"${terminfo[kend]}\" end-of-line \n",
+					"file": "/home/orion/dotfiles/zshrc",
+					"file_size": 3432,
+					"file_write_time": 131503104616729971,
+					"settings":
+					{
+						"buffer_size": 3432,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/orion/dotfiles/xinitrc",
+					"settings":
+					{
+						"buffer_size": 841,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": ";=====================================================\n;\n;   To learn more about how to configure Polybar\n;   go to https://github.com/jaagr/polybar\n;\n;   The README contains alot of information\n;\n;=====================================================\n\n[colors]\n;background = ${xrdb:color0:#222}\nbackground = #222\nbackground-alt = #444\n;foreground = ${xrdb:color7:#222}\nforeground = #dfdfdf\nforeground-alt = #555\nprimary = #ffb52a\nsecondary = #e60053\nalert = #bd2c40\n\n[bar/example]\n;monitor = ${env:MONITOR:HDMI-1}\nwidth = 100%\nheight = 27\n;offset-x = 1%\n;offset-y = 1%\nradius = 6.0\nfixed-center = false\n\nbackground = ${colors.background}\nforeground = ${colors.foreground}\n\nline-size = 3\nline-color = #f00\n\nborder-size = 4\nborder-color = #00000000\n\npadding-left = 0\npadding-right = 2\n\nmodule-margin-left = 1\nmodule-margin-right = 2\n\nfont-0 = fixed:pixelsize=10;1\nfont-1 = unifont:fontformat=truetype:size=8:antialias=false;0\nfont-2 = siji:pixelsize=10;1\n\nmodules-left = bspwm i3\nmodules-center = mpd\nmodules-right = filesystem xbacklight volume xkeyboard memory cpu battery temperature date powermenu\n\ntray-position = right\ntray-padding = 2\n;tray-transparent = true\n;tray-background = #0063ff\n\n;wm-restack = bspwm\n;wm-restack = i3\n\n;override-redirect = true\n\n;scroll-up = bspwm-desknext\n;scroll-down = bspwm-deskprev\n\n;scroll-up = i3wm-wsnext\n;scroll-down = i3wm-wsprev\n\ncursor-click = pointer\ncursor-scroll = ns-resize\n\n[module/xwindow]\ntype = internal/xwindow\nlabel = %title:0:30:...%\n\n[module/xkeyboard]\ntype = internal/xkeyboard\nblacklist-0 = num lock\n\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.foreground-alt}\nformat-prefix-underline = ${colors.secondary}\n\nlabel-layout = %layout%\nlabel-layout-underline = ${colors.secondary}\n\nlabel-indicator-padding = 2\nlabel-indicator-margin = 1\nlabel-indicator-background = ${colors.secondary}\nlabel-indicator-underline = ${colors.secondary}\n\n[module/filesystem]\ntype = internal/fs\ninterval = 25\n\nmount-0 = /\n\nlabel-mounted = %{F#0a81f5}%mountpoint%%{F-}: %percentage_used%%\nlabel-unmounted = %mountpoint% not mounted\nlabel-unmounted-foreground = ${colors.foreground-alt}\n\n[module/bspwm]\ntype = internal/bspwm\n\nlabel-focused = %index%\nlabel-focused-background = ${colors.background-alt}\nlabel-focused-underline= ${colors.primary}\nlabel-focused-padding = 2\n\nlabel-occupied = %index%\nlabel-occupied-padding = 2\n\nlabel-urgent = %index%!\nlabel-urgent-background = ${colors.alert}\nlabel-urgent-padding = 2\n\nlabel-empty = %index%\nlabel-empty-foreground = ${colors.foreground-alt}\nlabel-empty-padding = 2\n\n[module/i3]\ntype = internal/i3\nformat = <label-state> <label-mode>\nindex-sort = true\nwrapping-scroll = false\n\n; Only show workspaces on the same output as the bar\n;pin-workspaces = true\n\nlabel-mode-padding = 2\nlabel-mode-foreground = #000\nlabel-mode-background = ${colors.primary}\n\n; focused = Active workspace on focused monitor\nlabel-focused = %index%\nlabel-focused-background = ${module/bspwm.label-focused-background}\nlabel-focused-underline = ${module/bspwm.label-focused-underline}\nlabel-focused-padding = ${module/bspwm.label-focused-padding}\n\n; unfocused = Inactive workspace on any monitor\nlabel-unfocused = %index%\nlabel-unfocused-padding = ${module/bspwm.label-occupied-padding}\n\n; visible = Active workspace on unfocused monitor\nlabel-visible = %index%\nlabel-visible-background = ${self.label-focused-background}\nlabel-visible-underline = ${self.label-focused-underline}\nlabel-visible-padding = ${self.label-focused-padding}\n\n; urgent = Workspace with urgency hint set\nlabel-urgent = %index%\nlabel-urgent-background = ${module/bspwm.label-urgent-background}\nlabel-urgent-padding = ${module/bspwm.label-urgent-padding}\n\n[module/mpd]\ntype = internal/mpd\nformat-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>\n\nicon-prev = \nicon-stop = \nicon-play = \nicon-pause = \nicon-next = \n\nlabel-song-maxlen = 25\nlabel-song-ellipsis = true\n\n[module/xbacklight]\ntype = internal/xbacklight\n\nformat = <label> <bar>\nlabel = BL\n\nbar-width = 10\nbar-indicator = |\nbar-indicator-foreground = #ff\nbar-indicator-font = 2\nbar-fill = ─\nbar-fill-font = 2\nbar-fill-foreground = #9f78e1\nbar-empty = ─\nbar-empty-font = 2\nbar-empty-foreground = ${colors.foreground-alt}\n\n[module/backlight-acpi]\ninherit = module/xbacklight\ntype = internal/backlight\ncard = intel_backlight\n\n[module/cpu]\ntype = internal/cpu\ninterval = 2\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.foreground-alt}\nformat-underline = #f90000\nlabel = %percentage%%\n\n[module/memory]\ntype = internal/memory\ninterval = 2\nformat-prefix = \" \"\nformat-prefix-foreground = ${colors.foreground-alt}\nformat-underline = #4bffdc\nlabel = %percentage_used%%\n\n[module/wlan]\ntype = internal/network\ninterface = \ninterval = 3.0\n\nformat-connected = <ramp-signal> <label-connected>\nformat-connected-underline = #9f78e1\nlabel-connected = %essid%\n\nformat-disconnected =\n;format-disconnected = <label-disconnected>\n;format-disconnected-underline = ${self.format-connected-underline}\n;label-disconnected = %ifname% disconnected\n;label-disconnected-foreground = ${colors.foreground-alt}\n\nramp-signal-0 = \nramp-signal-1 = \nramp-signal-2 = \nramp-signal-3 = \nramp-signal-4 = \nramp-signal-foreground = ${colors.foreground-alt}\n\n[module/eth]\ntype = internal/network\ninterface = \ninterval = 3.0\n\nformat-connected-underline = #55aa55\nformat-connected-prefix = \" \"\nformat-connected-prefix-foreground = ${colors.foreground-alt}\nlabel-connected = %local_ip%\n\nformat-disconnected =\n;format-disconnected = <label-disconnected>\n;format-disconnected-underline = ${self.format-connected-underline}\n;label-disconnected = %ifname% disconnected\n;label-disconnected-foreground = ${colors.foreground-alt}\n\n[module/date]\ntype = internal/date\ninterval = 5\n\ndate =\ndate-alt = \" %Y-%m-%d\"\n\ntime = %H:%M\ntime-alt = %H:%M:%S\n\nformat-prefix = \nformat-prefix-foreground = ${colors.foreground-alt}\nformat-underline = #0a6cf5\n\nlabel = %date% %time%\n\n[module/volume]\ntype = internal/volume\n\nformat-volume = <label-volume> <bar-volume>\nlabel-volume = VOL\nlabel-volume-foreground = ${root.foreground}\n\nformat-muted-prefix = \" \"\nformat-muted-foreground = ${colors.foreground-alt}\nlabel-muted = sound muted\n\nbar-volume-width = 10\nbar-volume-foreground-0 = #55aa55\nbar-volume-foreground-1 = #55aa55\nbar-volume-foreground-2 = #55aa55\nbar-volume-foreground-3 = #55aa55\nbar-volume-foreground-4 = #55aa55\nbar-volume-foreground-5 = #f5a70a\nbar-volume-foreground-6 = #ff5555\nbar-volume-gradient = false\nbar-volume-indicator = |\nbar-volume-indicator-font = 2\nbar-volume-fill = ─\nbar-volume-fill-font = 2\nbar-volume-empty = ─\nbar-volume-empty-font = 2\nbar-volume-empty-foreground = ${colors.foreground-alt}\n\n[module/battery]\ntype = internal/battery\nbattery = BAT1\nadapter = ACAD\nfull-at = 98\n\nformat-charging = <animation-charging> <label-charging>\nformat-charging-underline = #ffb52a\n\nformat-discharging = <ramp-capacity> <label-discharging>\nformat-discharging-underline = ${self.format-charging-underline}\n\nformat-full-prefix = \" \"\nformat-full-prefix-foreground = ${colors.foreground-alt}\nformat-full-underline = ${self.format-charging-underline}\n\nramp-capacity-0 = \nramp-capacity-1 = \nramp-capacity-2 = \nramp-capacity-foreground = ${colors.foreground-alt}\n\nanimation-charging-0 = \nanimation-charging-1 = \nanimation-charging-2 = \nanimation-charging-foreground = ${colors.foreground-alt}\nanimation-charging-framerate = 750\n\n[module/temperature]\ntype = internal/temperature\nthermal-zone = 0\nwarn-temperature = 60\n\nformat = <ramp> <label>\nformat-underline = #f50a4d\nformat-warn = <ramp> <label-warn>\nformat-warn-underline = ${self.format-underline}\n\nlabel = %temperature%\nlabel-warn = %temperature%\nlabel-warn-foreground = ${colors.secondary}\n\nramp-0 = \nramp-1 = \nramp-2 = \nramp-foreground = ${colors.foreground-alt}\n\n[module/powermenu]\ntype = custom/menu\n\nexpand-right = true\n\nformat-spacing = 1\n\nlabel-open = \nlabel-open-foreground = ${colors.secondary}\nlabel-close =  cancel\nlabel-close-foreground = ${colors.secondary}\nlabel-separator = |\nlabel-separator-foreground = ${colors.foreground-alt}\n\nmenu-0-0 = reboot\nmenu-0-0-exec = menu-open-1\nmenu-0-1 = power off\nmenu-0-1-exec = menu-open-2\n\nmenu-1-0 = cancel\nmenu-1-0-exec = menu-open-0\nmenu-1-1 = reboot\nmenu-1-1-exec = sudo reboot\n\nmenu-2-0 = power off\nmenu-2-0-exec = sudo poweroff\nmenu-2-1 = cancel\nmenu-2-1-exec = menu-open-0\n\n[settings]\nscreenchange-reload = true\n;compositing-background = xor\n;compositing-background = screen\n;compositing-foreground = source\n;compositing-border = over\n\n[global/wm]\nmargin-top = 5\nmargin-bottom = 5\n\n; vim:ft=dosini\n",
+					"settings":
+					{
+						"buffer_size": 8598,
+						"line_ending": "Unix",
+						"name": ";================================================="
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 36.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"materia",
+						"Material Theme: Configuration"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"theme",
+						"UI: Select Theme"
+					],
+					[
+						"materi",
+						"Material Theme: Advanced configuration"
+					]
+				],
+				"width": 455.0
+			},
+			"console":
+			{
+				"height": 157.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/orion/dotfiles/config/termite/config",
+				"/home/orion/dotfiles/config/i3/config",
+				"/home/orion/dotfiles/config/gsimplecal/config",
+				"/home/orion/bin/scripts/volume",
+				"/home/orion/Downloads/old_home/orion/bin/scripts/volume",
+				"/home/orion/dotfiles/config/dunst/dunstrc",
+				"/home/orion/dotfiles/config/polybar/scripts/pacheck",
+				"/home/orion/dotfiles/config/sublime-text-3/Packages/ThemeTweaker/theme_tweaker.sublime-settings",
+				"/home/orion/dotfiles/config/polybar/scripts/pkg",
+				"/home/orion/dotfiles/config/polybar/config",
+				"/home/orion/.config/polybar/scripts/uptime",
+				"/home/orion/bin/scripts/i3lock-blur/lock.sh",
+				"/home/orion/bin/scripts/shutdown_menu.sh",
+				"/home/orion/bin/scripts/i3lock-blur/README.md",
+				"/home/orion/bin/scripts/i3lock-blur/LICENSE",
+				"/home/orion/Downloads/old_home/orion/bin/scripts/i3lock-blur/lock.sh",
+				"/home/orion/Downloads/old_home/orion/bin/scripts/i3lock-blur/README.md",
+				"/home/orion/Downloads/old_home/orion/.config/i3/config",
+				"/home/orion/Downloads/old_home/orion/.config/i3/.dunst_volume",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.config/dunst/dunstrc",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.zshrc",
+				"/run/media/orion/f2d9a044-44e7-4090-8511-44bbbe04e4ac/orion/.xinitrc",
+				"/home/orion/dotfiles/config/polybar/scripts/pkg.sh",
+				"/home/orion/.themes/color_other/config.i3.config.base",
+				"/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+				"/home/orion/.themes/color_other/config.termite.config.base",
+				"/home/orion/.themes/color_other/config.rofi.config.base",
+				"/home/orion/.config/termite/config",
+				"/home/orion/.config/polybar/launch.sh",
+				"/home/orion/.config/polybar/config",
+				"/home/orion/.config/dunst/dunstrc",
+				"/home/orion/.config/i3/config",
+				"/home/orion/.themes/color_other/orion.dotfiles.Xresources.base",
+				"/home/orion/.themes/color_other/bin.scripts.export_colors.sh.base",
+				"/home/orion/.config/rofi/config",
+				"/home/orion/bin/scripts/export_colors.sh",
+				"/home/orion/Downloads/szor_dotfiles/.config/compton.conf",
+				"/home/orion/dotfiles/profile",
+				"/home/orion/bin/scripts/i3-wininfo.sh",
+				"/home/orion/dotfiles/zshrc",
+				"/home/orion/Downloads/szor_dotfiles/.colors/luna",
+				"/home/orion/.config/sublime-text-3/Packages/User/Material Spaceblack.sublime-theme",
+				"/home/orion/.config/sublime-text-3/Packages/User/luna.tmTheme",
+				"/home/orion/.config/sublime-text-3/Packages/ThemeTweaker/theme_tweaker.sublime-settings",
+				"/home/orion/dotfiles/zprofile",
+				"/home/orion/.config/i3/panel-top",
+				"/home/orion/.config/i3/config_bar",
+				"/home/orion/.config/i3/panel-bottom",
+				"/home/orion/Downloads/szor_dotfiles/.config/i3/config",
+				"/home/orion/.config/i3/old_config",
+				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/settings.ini",
+				"/home/orion/Downloads/szor_dotfiles/.config/gtk-3.0/gtk.css",
+				"/home/orion/Downloads/szor_dotfiles/.config/i3/config_bar",
+				"/home/orion/Downloads/szor_dotfiles/.config/termite/config",
+				"/home/orion/.zshrc",
+				"/home/orion/dotfiles/bashrc",
+				"/home/orion/dotfiles/xinitrc",
+				"/home/orion/nohup.out"
+			],
+			"find":
+			{
+				"height": 55.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"TEXT",
+					"notify-send",
+					"false",
+					"pacmd",
+					"font",
+					"pacmd",
+					"icon",
+					"left",
+					"icon",
+					"format",
+					"lock",
+					"battery",
+					"icon",
+					"focus",
+					"eog",
+					"media",
+					"bindsym",
+					"x86",
+					"tray",
+					"font",
+					"cpu",
+					"wlan",
+					"cpu",
+					"eth",
+					"uptime",
+					"eth",
+					"uptime",
+					"eth",
+					"date",
+					"i3",
+					"temperature",
+					"pkg",
+					"uptime",
+					"cpu",
+					"temperature",
+					"backlight",
+					"[module",
+					"xbacklight",
+					"time",
+					"tray",
+					"date",
+					"network",
+					"battery",
+					"network",
+					"bar",
+					"customdate",
+					"#COLOR15",
+					"#1e2832",
+					"monitor",
+					"caf0ec",
+					"Alt",
+					"\"Dina\"",
+					"Sans-Serif",
+					"font",
+					"Shift+h",
+					"bar",
+					"$mod+r",
+					"$mod+R",
+					"$mod+r"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 3,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 221,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										148,
+										148
+									]
+								],
+								"settings":
+								{
+									"auto_name": "- things still to do!",
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/orion/dotfiles/Xresources",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 432,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										165,
+										165
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 8,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/orion/dotfiles/config/polybar/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 10273,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10061,
+										10061
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												10061,
+												10062
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/curly_bracket.png",
+												"brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												10057,
+												10058
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 7848.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/orion/.themes/color_other/config.termite.config.base",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1631,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										144,
+										144
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/orion/.themes/color_other/config.i3.config.base",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8955,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										7007,
+										7007
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 3554.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/orion/bin/scripts/sysinfo.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3018,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3018,
+										3018
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2196.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/orion/.themes/color_other/config.dunst.dunstrc.base",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7525,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										5017,
+										5017
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 2196.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/orion/.oh-my-zsh/themes/orion.zsh-theme",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 359,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										74,
+										74
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 9,
+							"type": "text"
+						},
+						{
+							"buffer": 8,
+							"file": "/home/orion/dotfiles/zshrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 3432,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										3342,
+										3342
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1296.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						},
+						{
+							"buffer": 9,
+							"file": "/home/orion/dotfiles/xinitrc",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 841,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										244,
+										244
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 10,
+							"type": "text"
+						},
+						{
+							"buffer": 10,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8598,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										196,
+										196
+									]
+								],
+								"settings":
+								{
+									"auto_name": ";=================================================",
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content"
+									],
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 1350.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 25.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,26,67,1894,1054,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 47.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

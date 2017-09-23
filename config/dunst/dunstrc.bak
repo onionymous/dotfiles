@@ -144,17 +144,17 @@
     browser = /usr/bin/firefox -new-tab
 
     # Align icons left/right/off
-    icon_position = left
+    icon_position = off
 
     # Paths to default icons.
     #icon_folders = /usr/share/icons/gnome/16x16/status/:/usr/share/icons/gnome/16x16/devices/
-    icon_folders = /usr/share/icons/Surfn/16/status:/usr/share/icons/Surfn/16/devices
+    icon_folders = /usr/share/icons/Flattr/status/scalable/:/usr/share/icons/Flattr/devices/scalable/
 
 [frame]
     #width = 3
     #color = "#aaaaaa"
-    width = 1
-    color = "#5e4661"
+    width = 0
+    color = "#111113"
 
 [shortcuts]
 
@@ -180,18 +180,20 @@
 [urgency_low]
     # IMPORTANT: colors have to be defined in quotation marks.
     # Otherwise the "#" and following would be interpreted as a comment.
-    background = "#0E0E1A"
-    foreground = "#edd7f5"
+    background = "#26282B"
+    foreground = "#CECFD1"
     timeout = 5
 
 [urgency_normal]
-    background = "#0E0E1A"
-    foreground = "#edd7f5"
+    #background = "#285577"
+    #foreground = "#CECFD1"
+    background = "#26282B"
+    foreground = "#CECFD1"
     timeout = 5
 
 [urgency_critical]
-    background = "#89668d"
-    foreground = "#FFFFFF"
+    background = "#26282B"
+    foreground = "#CECFD1"
     timeout = 0
 
 

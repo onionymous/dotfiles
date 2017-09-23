@@ -5,3 +5,6 @@ application/x-shellscript=sublime_text.desktop;
 text/css=sublime_text.desktop;
 audio/x-wav=mpv.desktop;
 image/jpeg=feh.desktop;
+image/png=eog.desktop;
+text/markdown=sublime_text.desktop;
+image/svg+xml=eog.desktop;

@@ -15,7 +15,7 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="orion"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -91,6 +91,20 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# newline after each command
+function precmd {
+    if [[ "$NEW_LINE" = true ]] then
+        if [[ "${ADD_NEW_LINE}" = true ]] then
+            PROMPT=$'\n'"${PROMPT}"
+            ADD_NEW_LINE=false
+        fi
+    else
+        PROMPT="${PROMPT}"
+        NEW_LINE=true
+        ADD_NEW_LINE=true
+    fi
+}
 
 bindkey "${terminfo[khome]}" beginning-of-line
 bindkey "${terminfo[kend]}" end-of-line 
