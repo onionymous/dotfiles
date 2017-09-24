@@ -1,0 +1,1 @@
+/home/orion/bin/scripts/export_colors.sh

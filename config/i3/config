@@ -32,11 +32,15 @@ font -*-dina-medium-r-*-*-8-*-*-*-*-*-*-*
 
 set $ws1 "1:home"
 set $ws2 "2:term"
-set $ws3 "3:web"
+set $ws3 "3:files"
 set $ws4 "4:code"
-set $ws5 "5:files"
-set $ws6 "6:misc"
-set $ws7 7
+set $ws5 "5:web"
+set $ws6 "6:chat"
+set $ws7 "7:misc"
+set $ws8 8
+set $ws9 9
+set $ws0 10
+
 
 set $mod Mod4
 
@@ -48,11 +52,11 @@ for_window [class="^.*"] border normal 0
 for_window [class=".*"] title_format " >_ %title "
 
 #                         border  bg      text    indicat child_border
-client.focused            #1a1832 #0E0E1A #edd7f5 #524971 #0E0E1A
-client.focused_inactive   #0E0E1A #0E0E1A #352736 #524971 #0E0E1A
-client.unfocused          #0E0E1A #0E0E1A #352736 #524971 #0E0E1A
-client.urgent             #5e4661 #5e4661 #FFFFFF #5e4661 #0E0E1A
-client.background         #0E0E1A
+client.focused            #1a1832 #010d1a #edd7f5 #524971 #010d1a
+client.focused_inactive   #010d1a #010d1a #352736 #524971 #010d1a
+client.unfocused          #010d1a #010d1a #352736 #524971 #010d1a
+client.urgent             #5e4661 #5e4661 #FFFFFF #5e4661 #010d1a
+client.background         #010d1a
 
 #
 # Bar (broken, see exec section below)
@@ -153,9 +157,9 @@ bindsym $mod+4 workspace $ws4
 bindsym $mod+5 workspace $ws5
 bindsym $mod+6 workspace $ws6
 bindsym $mod+7 workspace $ws7
-bindsym $mod+8 workspace 8
-bindsym $mod+9 workspace 9
-bindsym $mod+0 workspace 10
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
 
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
@@ -171,9 +175,9 @@ bindsym $mod+Shift+4 move container to workspace $ws4
 bindsym $mod+Shift+5 move container to workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

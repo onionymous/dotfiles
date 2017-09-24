@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/orion/.wallpapers/leo-lee-nudle-server-farm-final.jpg",
+
+    "special": {
+        "background": "#010d1a",
+        "foreground": "#edd7f5",
+        "cursor": "#B9A9C1"
+    },
+    "colors": {
+        "color0": "#010d1a",
+        "color1": "#89668d",
+        "color2": "#524971",
+        "color3": "#5c5996",
+        "color4": "#4f4ba0",
+        "color5": "#4e3362",
+        "color6": "#99649d",
+        "color7": "#baa9c0",
+        "color8": "#1a1832",
+        "color9": "#c18fc7",
+        "color10": "#7e70ad",
+        "color11": "#827ed4",
+        "color12": "#706ae4",
+        "color13": "#8255a3",
+        "color14": "#d48ada",
+        "color15": "#edd7f5"
+    }
+}

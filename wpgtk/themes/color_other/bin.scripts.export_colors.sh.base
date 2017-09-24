@@ -1,0 +1,46 @@
+# Black
+export COLOR0="#COLOR0"
+export COLOR8="#COLOR8"
+
+# Red
+export COLOR1="#COLOR1"
+export COLOR9="#COLOR9"
+
+# Green
+export COLOR2="#COLOR2"
+export COLOR10="#COLORX10"
+
+# Yellow
+export COLOR3="#COLOR3"
+export COLOR11="#COLORX11"
+
+# Blue
+export COLOR4="#COLOR4"
+export COLOR12="#COLORX12"
+
+# Magenta
+export COLOR5="#COLOR5"
+export COLOR13="#COLORX13"
+
+# Cyan
+export COLOR6="#COLOR6"
+export COLOR14="#COLORX14"
+
+# White
+export COLOR7="#COLOR7"
+export COLOR15="#COLORX15"
+
+export BAR_FG=$COLOR15
+export BAR_BG=$(echo "$COLOR0" | sed 's/#/#FF/')
+
+## Colors for active elements
+export ACTFG="$COLOR0"
+export ACTBG="$COLOR3"
+
+## Inactive Colors
+export IACTFG="$COLOR8"
+export IACTBG="$COLOR4"
+
+## Urgent Colors
+export URGBG="$COLOR1"
+export URGFG="$COLORX15"
