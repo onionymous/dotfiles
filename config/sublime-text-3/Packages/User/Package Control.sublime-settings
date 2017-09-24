@@ -7,8 +7,12 @@
 	[
 		"A File Icon",
 		"BracketHighlighter",
+		"ColorPicker",
 		"Diffy",
+		"Dotfiles Syntax Highlighting",
 		"Dracula Color Scheme",
+		"INI",
+		"LaTeXTools",
 		"Material Theme",
 		"Materialize",
 		"Monokai - Spacegray",
@@ -17,6 +21,7 @@
 		"SublimeREPL",
 		"Theme - Cyanide",
 		"Theme - DC",
+		"Theme - Freesia",
 		"Theme - SoDaReloaded",
 		"Theme - Spaceblack",
 		"ThemeTweaker"

@@ -1,4 +1,4 @@
 <?xml version="1.0"?>
 <gconf>
-	<entry name="save-to-keyring" mtime="1506195587" type="bool" value="true"/>
+	<entry name="save-to-keyring" mtime="1506228920" type="bool" value="true"/>
 </gconf>
