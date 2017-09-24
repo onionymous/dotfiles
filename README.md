@@ -1,5 +1,10 @@
 # dotfiles
-dotfiles for personal setup &amp;&amp; scripts, etc. happy ricing &lt;3
+* os: arch linux
+* wm: i3
+* bar: polybar
+* terminal: termite
+* editor: sublime/vim
+* browser: firefox
 
 ## 24/09/2017
 
